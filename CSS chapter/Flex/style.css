@@ -1,0 +1,37 @@
+.conte {
+    background-color: red;
+    /* width: 900px; */
+    height: 500px;
+    /* overflow: auto; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-around ;
+    align-items: flex-end;
+    /* align-content:center; */
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.contenedor-1 {
+    background-color: aqua;
+    align-self:stretch;
+    width: 200px ; 
+    height: 100px;
+    border: 1px solid black;
+}
+
+.contenedor-2 {
+    background-color: aqua;
+    align-self: center;
+    width: 200px ;
+    height: 200px;
+    border: 1px solid black;
+
+}
+.contenedor-3 {
+    background-color: aqua;
+    width: 200px ;
+    height: 200px;
+    border: 1px solid black;
+
+}
