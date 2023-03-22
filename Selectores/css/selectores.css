@@ -1,0 +1,18 @@
+.contenedor {
+    background-color: blue;
+}
+.contenedor input::before{
+    content: "Pasa por aca";
+
+}
+
+.contenedor .boton:hover{
+    color: white;
+    background-color: green;
+}
+
+.contenedor .boton::after{
+  content: "Hecho";
+}
+
+
